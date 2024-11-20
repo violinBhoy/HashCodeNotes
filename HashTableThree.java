@@ -10,17 +10,17 @@ public class HashTableThree {
 
         //add values to show how it deals with collisions
         Character c = '1';
-        hashTable[c.hashCode()%10].add(c);
+        hashTable[c.hashCode()%11].add(c);
         Character makar = '8';
-        hashTable[makar.hashCode()%10].add(makar);
+        hashTable[makar.hashCode()%11].add(makar);
         Integer mcJesus = 97;
-        hashTable[mcJesus.hashCode()%10].add(mcJesus);
+        hashTable[mcJesus.hashCode()%11].add(mcJesus);
         Integer goat = 99;
         hashTable[goat.hashCode()%10].add(goat);
         Integer mackinnon = 29;
-        hashTable[mackinnon.hashCode()%10].add(mackinnon);
+        hashTable[mackinnon.hashCode()%11].add(mackinnon);
         Character landeskog = 'C';
-        hashTable[landeskog.hashCode()%10].add(landeskog);
+        hashTable[landeskog.hashCode()%11].add(landeskog);
 
 
         for (LinkedList list: hashTable) {//print the hashtable
